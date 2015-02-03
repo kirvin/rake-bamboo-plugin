@@ -6,8 +6,8 @@
 	<groupId>au.id.wolfe.bamboo</groupId>
 	<artifactId>rake-bamboo-plugin</artifactId>
 	<!-- Leaving this the OLD name to ensure we don't loose anyone -->
-	<version>2.7-SNAPSHOT</version>
-	<name>Bamboo Ruby Plugin</name>
+	<version>2.8-SNAPSHOT</version>
+	<name>Bamboo Ruby Plugin 2</name>
 	<description>Plugin for Atlassian Bamboo which contains an array of ruby tasks.</description>
 	<packaging>atlassian-plugin</packaging>
 	<organization>

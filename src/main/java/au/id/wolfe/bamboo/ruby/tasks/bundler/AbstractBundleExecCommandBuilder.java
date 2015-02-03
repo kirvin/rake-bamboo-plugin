@@ -28,7 +28,11 @@ public class AbstractBundleExecCommandBuilder<T extends AbstractBundleExecComman
     public T addIfBundleExec( @Nullable String bundleFlag ) {
 
         if ( BooleanUtils.toBoolean( bundleFlag ) ) {
-            getCommandList().add( getRvmRubyLocator().buildExecutablePath( getRubyRuntime().getRubyRuntimeName(), getRubyExecutablePath(), BUNDLE_COMMAND ) );
+            getCommandList().add(
+            	getRvmRubyLocator().buildExecutablePath(getRubyRuntime().getRubyRuntimeName(), 
+            											getRubyExecutablePath(), 
+            											BUNDLE_COMMAND)
+            );
             getCommandList().add( BUNDLE_EXEC_ARG );
         }
         return (T) this;
