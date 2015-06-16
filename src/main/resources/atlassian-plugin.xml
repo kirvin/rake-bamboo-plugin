@@ -18,8 +18,8 @@
         <executable key="ruby" nameKey="builder.ruby.executableName" pathHelpKey="builder.ruby.helpPath" primaryCapabilityProvider="false"/>
 
         <!--The UI fragments used to configure the plugin-->
-        <resource type="freemarker" name="edit" location="bundler/install/editBundlerInstallTask.ftl"/>
-        <resource type="freemarker" name="view" location="bundler/install/viewBundlerInstallTask.ftl"/>
+        <resource type="freemarker" name="edit" location="bundler/install/rbp-editBundlerInstallTask.ftl"/>
+        <resource type="freemarker" name="view" location="bundler/install/rbp-viewBundlerInstallTask.ftl"/>
 
     </taskType>
     
@@ -36,8 +36,8 @@
         <executable key="ruby" nameKey="builder.ruby.executableName" pathHelpKey="builder.ruby.helpPath" primaryCapabilityProvider="false"/>
 
         <!--The UI fragments used to configure the plugin-->
-        <resource type="freemarker" name="edit" location="bundler/package/editBundlerPackageTask.ftl"/>
-        <resource type="freemarker" name="view" location="bundler/package/viewBundlerPackageTask.ftl"/>
+        <resource type="freemarker" name="edit" location="bundler/package/rbp-editBundlerPackageTask.ftl"/>
+        <resource type="freemarker" name="view" location="bundler/package/rbp-viewBundlerPackageTask.ftl"/>
 
     </taskType>
 
@@ -57,8 +57,8 @@
         <executable key="ruby" nameKey="builder.ruby.executableName" pathHelpKey="builder.ruby.helpPath" primaryCapabilityProvider="false"/>
 
         <!--The UI fragments used to configure the plugin-->
-        <resource type="freemarker" name="edit" location="bundler/cli/editBundlerCliTask.ftl"/>
-        <resource type="freemarker" name="view" location="bundler/cli/viewBundlerCliTask.ftl"/>
+        <resource type="freemarker" name="edit" location="bundler/cli/rbp-editBundlerCliTask.ftl"/>
+        <resource type="freemarker" name="view" location="bundler/cli/rbp-viewBundlerCliTask.ftl"/>
 
     </taskType>
     
@@ -78,8 +78,8 @@
         <executable key="ruby" nameKey="builder.ruby.executableName" pathHelpKey="builder.ruby.helpPath" primaryCapabilityProvider="false"/>
 
         <!--The UI fragments used to configure the plugin-->
-        <resource type="freemarker" name="edit" location="rake/editRakeTask.ftl"/>
-        <resource type="freemarker" name="view" location="rake/viewRakeTask.ftl"/>
+        <resource type="freemarker" name="edit" location="rake/rbp-editRakeTask.ftl"/>
+        <resource type="freemarker" name="view" location="rake/rbp-viewRakeTask.ftl"/>
 
     </taskType>
 
@@ -96,8 +96,8 @@
         <executable key="ruby" nameKey="builder.ruby.executableName" pathHelpKey="builder.ruby.helpPath" primaryCapabilityProvider="false"/>
 
         <!--The UI fragments used to configure the plugin-->
-        <resource type="freemarker" name="edit" location="capistrano/editCapistranoTask.ftl"/>
-        <resource type="freemarker" name="view" location="capistrano/viewCapistranoTask.ftl"/>
+        <resource type="freemarker" name="edit" location="capistrano/rbp-editCapistranoTask.ftl"/>
+        <resource type="freemarker" name="view" location="capistrano/rbp-viewCapistranoTask.ftl"/>
 
     </taskType>
 
